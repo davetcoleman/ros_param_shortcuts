@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(rosparam_shortcuts)
 
-# C++ 14
-add_compile_options(-std=c++14)
-
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   cmake_modules
